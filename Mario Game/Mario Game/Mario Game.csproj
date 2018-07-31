@@ -226,46 +226,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Atlas Sprite Review.txt" />
-    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Factories Review.txt" />
-    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Items Classes Review.txt" />
-    <Content Include="CodeReviews\Sprint1\Joseph%27s Sprint 1 Reviews\Mario.cs Review.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\EnemyFactory.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\GoombaStates.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\KoopaStates.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\MarioPowerUpStates.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\State.txt" />
-    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\StateMachine.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\AtlasSpriteReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\BlockCoinReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\FireFlowerReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\GoombaReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\GreenKoopaReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\MushroomReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\OneUpReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\RedKoopaReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\StarReview.txt" />
-    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\UndergroundCoinReview.txt" />
-    <Content Include="CodeReviews\Sprint2\Anthony%27s Reviews\States Review.txt" />
-    <Content Include="CodeReviews\Sprint2\Joseph%27s Review\LevelParser Code Review.txt" />
-    <Content Include="CodeReviews\Sprint2\Kyle%27s Reviews\Background Objects.txt" />
-    <Content Include="CodeReviews\Sprint2\Kyle%27s Reviews\Level Review.txt" />
-    <Content Include="CodeReviews\Sprint2\Matt%27s Review\CollisionReview.txt" />
-    <Content Include="CodeReviews\Sprint3\Anrhony%27s Review\Anthony Reivew.txt" />
-    <Content Include="CodeReviews\Sprint3\Kyle%27s Review\FireballReview.txt" />
-    <Content Include="CodeReviews\Sprint3\Matt%27s Review\Matthew%27s Review.txt" />
-    <Content Include="CodeReviews\Sprint4\Joe%27s Review\PipeEnterStateReview.txt" />
-    <Content Include="CodeReviews\Sprint4\Anthony%27s Review\Parser and Underground Coin.txt" />
-    <Content Include="CodeReviews\Sprint4\Kyle%27s Review\PirahnaPlantReview.txt" />
-    <Content Include="CodeReviews\Sprint4\Matt%27s Review\PlayerHUDReview.txt" />
-    <Content Include="CodeReviews\Sprint5\Joe%27s Review\PortalReview.txt" />
-    <Content Include="CodeReviews\Sprint5\Kyle%27s Review\PortalReview.txt" />
-    <Content Include="CodeReviews\Sprint5\Anthony%27s Reivew\Portals and Portal Physics.txt" />
-    <Content Include="CodeReviews\Sprint5\Matt%27s Review\ViewReview.txt" />
-    <Content Include="Icon.ico" />
-    <Content Include="LevelTileMap\README.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
     <None Include="LevelTileMap\level_1.json">
