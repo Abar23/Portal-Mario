@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3490ED51-2AE6-4E28-9328-2F118828AC46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarioGame</RootNamespace>
+    <AssemblyName>MarioGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Collision\CollisionSystem.cs" />
+    <Compile Include="Commands\MarioCommands.cs" />
+    <Compile Include="Controllers\MouseController.cs" />
+    <Compile Include="Costumes\CostumeChanger.cs" />
+    <Compile Include="Events\BlockUpdateEvent.cs" />
+    <Compile Include="Factories\BlockFactory.cs" />
+    <Compile Include="Factories\BlockTypes.cs" />
+    <Compile Include="Collision\CollisionDirection.cs" />
+    <Compile Include="Factories\BackgroundFactory.cs" />
+    <Compile Include="Factories\BackgroundTypes.cs" />
+    <Compile Include="Factories\EffectsFactory.cs" />
+    <Compile Include="Factories\EffectTypes.cs" />
+    <Compile Include="Factories\BossTypes.cs" />
+    <Compile Include="Factories\BossFactory.cs" />
+    <Compile Include="GameObjects\Background\BackgroundObject.cs" />
+    <Compile Include="GameObjects\Background\FlagSegment.cs" />
+    <Compile Include="GameObjects\Background\Flag.cs" />
+    <Compile Include="GameObjects\Blocks\Block.cs" />
+    <Compile Include="GameObjects\Blocks\IUndergroundBlockEventHandlers.cs" />
+    <Compile Include="GameObjects\Blocks\Pipe.cs" />
+    <Compile Include="GameObjects\Blocks\PipeSegment.cs" />
+    <Compile Include="GameObjects\Blocks\WinBlock.cs" />
+    <Compile Include="GameObjects\Blocks\StateBlock.cs" />
+    <Compile Include="GameObjects\Blocks\HiddenBlock.cs" />
+    <Compile Include="GameObjects\Blocks\IBumpable.cs" />
+    <Compile Include="GameObjects\Blocks\MediumPipe.cs" />
+    <Compile Include="GameObjects\Blocks\SmallPipe.cs" />
+    <Compile Include="GameObjects\Blocks\QuestionBlock.cs" />
+    <Compile Include="GameObjects\Blocks\PyramidBlock.cs" />
+    <Compile Include="GameObjects\Blocks\FloorBlock.cs" />
+    <Compile Include="GameObjects\Blocks\BrickBlock.cs" />
+    <Compile Include="GameObjects\Other\Button.cs" />
+    <Compile Include="GameObjects\Other\Gate.cs" />
+    <Compile Include="GameObjects\Other\CompanionCube.cs" />
+    <Compile Include="GameObjects\Other\PortalProjectile.cs" />
+    <Compile Include="GameObjects\Other\FireBall.cs" />
+    <Compile Include="GameObjects\Effects\Sword.cs" />
+    <Compile Include="GameObjects\Effects\Portal.cs" />
+    <Compile Include="GameObjects\Effects\BowserFireball.cs" />
+    <Compile Include="GameObjects\Enemies\Bowser.cs" />
+    <Compile Include="GameObjects\Enemies\PiranhaPlant.cs" />
+    <Compile Include="GameObjects\HitboxTypes.cs" />
+    <Compile Include="GameObjects\Enemies\Goomba.cs" />
+    <Compile Include="GameObjects\Enemies\Koopa.cs" />
+    <Compile Include="Factories\EnemyFactory.cs" />
+    <Compile Include="Factories\EnemyTypes.cs" />
+    <Compile Include="Factories\ItemTypes.cs" />
+    <Compile Include="Factories\IFactory.cs" />
+    <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Factories\MarioTypes.cs" />
+    <Compile Include="Factories\SuperMarioFactory.cs" />
+    <Compile Include="Factories\SmallMarioFactory.cs" />
+    <Compile Include="Factories\FireMarioFactory.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Items\BlockCoin.cs" />
+    <Compile Include="GameObjects\Items\FireFlower.cs" />
+    <Compile Include="GameObjects\Items\IRevealableItem.cs" />
+    <Compile Include="GameObjects\Items\Mushroom.cs" />
+    <Compile Include="GameObjects\Items\OneUp.cs" />
+    <Compile Include="GameObjects\Items\PortalGun.cs" />
+    <Compile Include="GameObjects\Items\Star.cs" />
+    <Compile Include="GameObjects\Items\UndergroundCoin.cs" />
+    <Compile Include="Physics\PortalPhysics.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserDeadState.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserChargeState.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserFireBreathState.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserIdleState.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserShellState.cs" />
+    <Compile Include="StateMachines\BowserStates\BowserState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioFinishState.cs" />
+    <Compile Include="StateMachines\SwordStates\ReadyToSwingState.cs" />
+    <Compile Include="StateMachines\SwordStates\SwingingState.cs" />
+    <Compile Include="StateMachines\SwordStates\SwordState.cs" />
+    <Compile Include="StateMachines\PortalStates\ActiveState.cs" />
+    <Compile Include="StateMachines\PortalStates\PortalState.cs" />
+    <Compile Include="StateMachines\PortalStates\ReadyToBeShotState.cs" />
+    <Compile Include="Systems\Events.cs" />
+    <Compile Include="GameObjects\Player\Mario.cs" />
+    <Compile Include="LevelTileMap\LevelHelperClasses.cs" />
+    <Compile Include="LevelTileMap\Level.cs" />
+    <Compile Include="LevelTileMap\LevelParser.cs" />
+    <Compile Include="MarioGame.cs" />
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\Commands.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Controllers\GamePadController.cs" />
+    <Compile Include="Controllers\IController.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="LevelTileMap\LevelMap.cs" />
+    <Compile Include="LevelTileMap\Section.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sounds\AudioPlayer.cs" />
+    <Compile Include="Sounds\SoundEffectNames.cs" />
+    <Compile Include="Sounds\MusicPlayer.cs" />
+    <Compile Include="Sounds\SoundPlayer.cs" />
+    <Compile Include="Sprites\AnimatedAtlasSprite.cs" />
+    <Compile Include="Sprites\ComponentAtlasSprite.cs" />
+    <Compile Include="Sprites\NullSprite.cs" />
+    <Compile Include="Sprites\OneShotAtlasSprite.cs" />
+    <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="Sprites\ISprite.cs" />
+    <Compile Include="Sprites\StaticAtlasSprite.cs" />
+    <Compile Include="StateMachines\BlockStates\BrickBrokenState.cs" />
+    <Compile Include="StateMachines\BlockStates\BumpedState.cs" />
+    <Compile Include="StateMachines\BlockStates\BlockState.cs" />
+    <Compile Include="StateMachines\BlockStates\QuestionStillState.cs" />
+    <Compile Include="StateMachines\BlockStates\BrickStillState.cs" />
+    <Compile Include="StateMachines\FireBallStates\BouncingFireBallState.cs" />
+    <Compile Include="StateMachines\FireBallStates\DestroyedFireBallState.cs" />
+    <Compile Include="StateMachines\FireBallStates\FireBallState.cs" />
+    <Compile Include="StateMachines\FireBallStates\ReadyToBeSpatState.cs" />
+    <Compile Include="StateMachines\GameStates\WinState.cs" />
+    <Compile Include="StateMachines\GameStates\GameOverState.cs" />
+    <Compile Include="StateMachines\GameStates\IRestartable.cs" />
+    <Compile Include="StateMachines\GameStates\PlayState.cs" />
+    <Compile Include="StateMachines\GameStates\GameState.cs" />
+    <Compile Include="StateMachines\GoombaStates\GoombaDeathState.cs" />
+    <Compile Include="StateMachines\GoombaStates\GoombaState.cs" />
+    <Compile Include="StateMachines\GoombaStates\GoombaWalkingState.cs" />
+    <Compile Include="StateMachines\ItemStates\BlockCoinRevealState.cs" />
+    <Compile Include="StateMachines\ItemStates\ItemHiddenState.cs" />
+    <Compile Include="StateMachines\ItemStates\ItemState.cs" />
+    <Compile Include="StateMachines\ItemStates\BouncingStarState.cs" />
+    <Compile Include="StateMachines\ItemStates\MovingItemState.cs" />
+    <Compile Include="StateMachines\ItemStates\RevealItemState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaFeetOutOfShellState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaFireBallDeathState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaShellState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaWalkLeftState.cs" />
+    <Compile Include="StateMachines\KoopaStates\KoopaWalkRightState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioActionState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioCrouchState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioIdleState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioJumpState.cs" />
+    <Compile Include="StateMachines\MarioActionStates\MarioWalkState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\FireMarioState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\DeadMarioState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\MarioPowerUpState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\PipeExitState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\PipeEnterState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\SmallMarioState.cs" />
+    <Compile Include="StateMachines\MarioPowerUpStates\SuperMarioState.cs" />
+    <Compile Include="Systems\GameEventListener.cs" />
+    <Compile Include="Systems\SoundSystem.cs" />
+    <Compile Include="StateMachines\PiranhaPlantStates\MovingPiranhaPlantState.cs" />
+    <Compile Include="StateMachines\PiranhaPlantStates\PiranhaDeathState.cs" />
+    <Compile Include="StateMachines\PiranhaPlantStates\PiranhaState.cs" />
+    <Compile Include="View\Camera.cs" />
+    <Compile Include="View\PlayerHUD.cs" />
+    <Compile Include="View\Layer.cs" />
+    <Compile Include="Physics\Gravity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Atlas Sprite Review.txt" />
+    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Factories Review.txt" />
+    <Content Include="CodeReviews\Sprint1\Anthony%27s Reviews\Items Classes Review.txt" />
+    <Content Include="CodeReviews\Sprint1\Joseph%27s Sprint 1 Reviews\Mario.cs Review.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\EnemyFactory.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\GoombaStates.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\KoopaStates.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\MarioPowerUpStates.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\State.txt" />
+    <Content Include="CodeReviews\Sprint1\Kyle%27s Sprint 1 Reviews\StateMachine.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\AtlasSpriteReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\BlockCoinReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\FireFlowerReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\GoombaReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\GreenKoopaReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\MushroomReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\OneUpReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\RedKoopaReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\StarReview.txt" />
+    <Content Include="CodeReviews\Sprint1\Matthew%27s Sprint 1 Reviews\UndergroundCoinReview.txt" />
+    <Content Include="CodeReviews\Sprint2\Anthony%27s Reviews\States Review.txt" />
+    <Content Include="CodeReviews\Sprint2\Joseph%27s Review\LevelParser Code Review.txt" />
+    <Content Include="CodeReviews\Sprint2\Kyle%27s Reviews\Background Objects.txt" />
+    <Content Include="CodeReviews\Sprint2\Kyle%27s Reviews\Level Review.txt" />
+    <Content Include="CodeReviews\Sprint2\Matt%27s Review\CollisionReview.txt" />
+    <Content Include="CodeReviews\Sprint3\Anrhony%27s Review\Anthony Reivew.txt" />
+    <Content Include="CodeReviews\Sprint3\Kyle%27s Review\FireballReview.txt" />
+    <Content Include="CodeReviews\Sprint3\Matt%27s Review\Matthew%27s Review.txt" />
+    <Content Include="CodeReviews\Sprint4\Joe%27s Review\PipeEnterStateReview.txt" />
+    <Content Include="CodeReviews\Sprint4\Anthony%27s Review\Parser and Underground Coin.txt" />
+    <Content Include="CodeReviews\Sprint4\Kyle%27s Review\PirahnaPlantReview.txt" />
+    <Content Include="CodeReviews\Sprint4\Matt%27s Review\PlayerHUDReview.txt" />
+    <Content Include="CodeReviews\Sprint5\Joe%27s Review\PortalReview.txt" />
+    <Content Include="CodeReviews\Sprint5\Kyle%27s Review\PortalReview.txt" />
+    <Content Include="CodeReviews\Sprint5\Anthony%27s Reivew\Portals and Portal Physics.txt" />
+    <Content Include="CodeReviews\Sprint5\Matt%27s Review\ViewReview.txt" />
+    <Content Include="Icon.ico" />
+    <Content Include="LevelTileMap\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.manifest" />
+    <None Include="LevelTileMap\level_1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

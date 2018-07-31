@@ -1,0 +1,30 @@
+﻿namespace MarioGame.Sounds
+{
+    public enum SoundEffectNames
+    {
+        OneUp,
+        BreakBlock,
+        Bump,
+        Coin,
+        Fireball,
+        Flagpole,
+        GameOver,
+        JumpSmall,
+        JumpSuper,
+        MarioDie,
+        Pipe,
+        PowerUp,
+        PowerUpAppear,
+        Stomp,
+        Warning,
+        Win,
+        TimePoints,
+        PortalFire,
+        GateOpen,
+        GateClose,
+        BowserFall,
+        BowserFire,
+        CubeDeath,
+        OpenPortal
+    }
+}

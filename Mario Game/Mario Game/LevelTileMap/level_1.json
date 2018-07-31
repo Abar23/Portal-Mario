@@ -1,0 +1,1870 @@
+﻿{
+  "Dimensions": {
+    "Height": 480,
+    "Width":  7616 
+  },
+
+  "Entities": [
+
+    {
+      "Type": "Black",
+      "X": 6720,
+      "Y": 0,
+      "Collidable": false,
+      "InARow": 12
+    },
+
+    {
+      "Type": "BigHill",
+      "X": 0,
+      "Y": 350,
+      "Collidable": false,
+      "InARow": 6,
+      "Layer": 2
+    },
+
+    {
+      "Type": "BigBush",
+      "X": 128,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 4,
+      "Gap": 1756
+    },
+    {
+      "Type": "BigBush",
+      "X": 5500,
+      "Y": 384,
+      "Collidable": false
+    },
+
+    {
+      "Type": "SmallBush",
+      "X": 608,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 4,
+      "Gap": 902
+    },
+    {
+      "Type": "BigTree",
+      "X": 2700,
+      "Y": 324,
+      "Collidable": false,
+      "InARow": 2,
+      "Gap": 932
+    },
+
+    {
+      "Type": "SmallTree",
+      "X": 384,
+      "Y": 356,
+      "Collidable": false,
+      "InARow": 5,
+      "Gap": 808
+    },
+
+    {
+      "Type": "BigCloud",
+      "X": 64,
+      "Y": 104,
+      "Collidable": false,
+      "InARow": 12,
+      "Gap": 416,
+      "Layer": 1
+    },
+
+    {
+      "Type": "SmallCloud",
+      "X": 384,
+      "Y": 40,
+      "Collidable": false,
+      "InARow": 12,
+      "Gap": 512,
+      "Layer": 1
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 0,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 69
+    },
+
+    {
+      "Type": "FloorBlock",
+      "X": 2176,
+      "Y": 448,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 0,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 68
+    },
+
+
+    {
+      "Type": "FloorBlock",
+      "X": 2272,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 15
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 2272,
+      "Y": 448,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 2304,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 13
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 2720,
+      "Y": 448,
+      "Collidable": true
+    },
+
+
+    {
+      "Type": "FloorBlock",
+      "X": 2848,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 64
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 2848,
+      "Y": 448,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 2880,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 62
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 4864,
+      "Y": 448,
+      "Collidable": true
+    },
+
+
+
+    {
+      "Type": "FloorBlock",
+      "X": 4960,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 55
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 4960,
+      "Y": 448,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 4992,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 54
+    },
+
+    {
+      "Type": "RedKoopa",
+      "X": 416,
+      "Y": 368,
+      "Collidable": true
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 640,
+      "Y": 288,
+      "Collidable": true
+    },
+
+    {
+      "Type": "QuestionBlock",
+      "X": 672,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Mushroom",
+          "X": 672,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 704,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 736,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 744,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 768,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 704,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 704,
+          "Y": 164,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "Goomba",
+      "X": 704,
+      "Y": 384,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Goomba",
+      "X": 1312,
+      "Y": 384,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Goomba",
+      "X": 1664,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 16
+    },
+    {
+      "Type": "PiranhaPlant",
+      "X": 1840,
+      "Y": 292,
+      "Collidable": true
+    },
+    {
+      "Type": "HiddenBlock",
+      "X": 2048,
+      "Y": 256,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "OneUp",
+          "X": 2048,
+          "Y": 256,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 2464,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 2496,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 2496,
+          "Y": 292,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 2528,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 2560,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 8
+    },
+    {
+      "Type": "Goomba",
+      "X": 2560,
+      "Y": 128,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 32
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 2912,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 3
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 3008,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 160,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 3008,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        },
+        {
+          "Type": "BlockCoin",
+          "X": 3016,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "Goomba",
+      "X": 3104,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 16
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 3200,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 3232,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Star",
+          "X": 3232,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 3392,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 3400,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 3488,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 3496,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 3584,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 3592,
+          "Y": 288,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "GreenKoopa",
+      "X": 3424,
+      "Y": 368,
+      "Collidable": true
+    },
+    {
+      "Type": "Goomba",
+      "X": 3648,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 16
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 3488,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 3488,
+          "Y": 164,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 3776,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 3872,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 3
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 4096,
+      "Y": 160,
+      "Collidable": true
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 4128,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 4136,
+          "Y": 160,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 4160,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "BlockCoin",
+          "X": 4168,
+          "Y": 160,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 4192,
+      "Y": 160,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 4128,
+      "Y": 288,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "Goomba",
+      "X": 3968,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 16
+    },
+    {
+      "Type": "Goomba",
+      "X": 4096,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 16
+    },
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 4288,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4320,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4384,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4320,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4352,
+      "Y": 352,
+      "Collidable": false
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4384,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4352,
+      "Y": 320,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4384,
+      "Y": 288,
+      "Collidable": true
+    },
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 4480,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4512,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4576,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4480,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4512,
+      "Y": 352,
+      "Collidable": false
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4544,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4480,
+      "Y": 320,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4480,
+      "Y": 288,
+      "Collidable": true
+    },
+
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 4736,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4768,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 3
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4800,
+      "Y": 352,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4832,
+      "Y": 320,
+      "Collidable": false
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4768,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4800,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4832,
+      "Y": 288,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4864,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4864,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4864,
+      "Y": 384,
+      "Collidable": true
+    },
+
+
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 4960,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4992,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5056,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4960,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4992,
+      "Y": 352,
+      "Collidable": false
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5024,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4960,
+      "Y": 320,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 4960,
+      "Y": 288,
+      "Collidable": true
+    },
+
+    {
+      "Type": "QuestionBlock",
+      "X": 5200,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 5200,
+          "Y": 292,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 5350,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 5350,
+          "Y": 292,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 5500,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 5500,
+          "Y": 292,
+          "Collidable": true
+        }
+      ]
+    },
+    {
+      "Type": "QuestionBlock",
+      "X": 5650,
+      "Y": 288,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "FireFlower",
+          "X": 5650,
+          "Y": 292,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 5792,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5824,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 7
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5824,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5856,
+      "Y": 352,
+      "Collidable": false,
+      "InARow": 6
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5856,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5888,
+      "Y": 320,
+      "Collidable": false,
+      "InARow": 5
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5888,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5920,
+      "Y": 288,
+      "Collidable": false,
+      "InARow": 4
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5920,
+      "Y": 256,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5952,
+      "Y": 256,
+      "Collidable": false,
+      "InARow": 3
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5952,
+      "Y": 224,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5984,
+      "Y": 224,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 5984,
+      "Y": 192,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6016,
+      "Y": 192,
+      "Collidable": false,
+      "InARow": 1
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6016,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 192,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 224,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 256,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 6048,
+      "Y": 384,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag",
+      "X": 6336,
+      "Y": 96,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 6",
+      "X": 6366,
+      "Y": 144,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 5",
+      "X": 6366,
+      "Y": 184,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 4",
+      "X": 6366,
+      "Y": 224,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 3",
+      "X": 6366,
+      "Y": 264,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 2",
+      "X": 6366,
+      "Y": 304,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Flag Segment 1",
+      "X": 6366,
+      "Y": 344,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Win Block",
+      "X": 6352,
+      "Y": 384,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Castle",
+      "X": 6464,
+      "Y": 256,
+      "Collidable": false
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 32,
+      "Collidable": true,
+      "InARow": 16
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 256,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 224,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 192,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 160,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 128,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 96,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6720,
+      "Y": 64,
+      "Collidable": true
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 6848,
+      "Y": 384,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 160
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6880,
+      "Y": 384,
+      "Collidable": false,
+      "InARow": 5
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6880,
+      "Y": 352,
+      "Collidable": false,
+      "InARow": 5
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6848,
+      "Y": 352,
+      "Collidable": true,
+      "InARow": 2,
+      "Gap": 160
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6848,
+      "Y": 320,
+      "Collidable": true,
+      "InARow": 7
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 6848,
+      "Y": 64,
+      "Collidable": true,
+      "InARow": 7
+    },
+
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 384,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 320,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 256,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 224,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 192,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 160,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 128,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 96,
+      "Collidable": true
+    },
+    {
+      "Type": "BrickBlock",
+      "X": 7200,
+      "Y": 64,
+      "Collidable": true
+    },
+    {
+      "Type": "UndergroundCoin",
+      "X": 6854,
+      "Y": 288,
+      "Collidable": true,
+      "InARow": 7,
+      "Gap": 12
+    },
+    {
+      "Type": "UndergroundCoin",
+      "X": 6854,
+      "Y": 224,
+      "Collidable": true,
+      "InARow": 7,
+      "Gap": 12
+    },
+    {
+      "Type": "UndergroundCoin",
+      "X": 6886,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 5,
+      "Gap": 12
+    },
+
+    {
+      "Type": "Player",
+      "X": 96,
+      "Y": 334,
+      "Collidable": true,
+      "CheckpointX": 2650,
+      "CheckpointY": 334
+    },
+
+    {
+      "Type": "QuestionBlock",
+      "X": 7312,
+      "Y": 220,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "PortalGun",
+          "X": 7312,
+          "Y": 220,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "Pipe",
+      "X": 896,
+      "Y": 352,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 6108,
+      "PipeY": 352
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 896,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 896,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 2
+    },
+
+    {
+      "Type": "MediumPipe",
+      "X": 1216,
+      "Y": 320,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 7304,
+      "PipeY": 352
+    },
+    {
+      "Type": "Pipe",
+      "X": 1472,
+      "Y": 288,
+      "Collidable": true
+    },
+    {
+      "Type": "PipeSegment",
+      "X": 1472,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "Pipe",
+      "X": 1824,
+      "Y": 288,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 6776,
+      "PipeY": 352
+    },
+    {
+      "Type": "PipeSegment",
+      "X": 1824,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "Pipe",
+      "X": 4640,
+      "Y": 352,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 4640,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 4640,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 2
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 5216,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 5216,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 2
+    },
+
+    {
+      "Type": "CompanionCube",
+      "X": 643,
+      "Y": 100,
+      "Collidable": true
+    },
+    {
+      "Type": "Pipe",
+      "X": 6100,
+      "Y": 352,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 904,
+      "PipeY": 352
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 6100,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 2
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 6100,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 2
+    },
+
+    {
+      "Type": "CopperPipe",
+      "X": 6768,
+      "Y": 352,
+      "Collidable": true
+    },
+
+    {
+      "Type": "CopperPipe",
+      "X": 7104,
+      "Y": 352,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 4648,
+      "PipeY": 352
+    },
+
+    {
+      "Type": "FloorBlock",
+      "X": 6720,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 16
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 6720,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 16
+    },
+
+    {
+      "Type": "Bowser",
+      "X": 5568,
+      "Y": 335,
+      "Collidable": true
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7232,
+      "Y": 416,
+      "Collidable": true,
+      "InARow": 27
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 7232,
+      "Y": 448,
+      "Collidable": false,
+      "InARow": 27
+    },
+
+
+    {
+      "Type": "CopperPipe",
+      "X": 7296,
+      "Y": 352,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 1224,
+      "PipeY": 320
+    },
+    {
+      "Type": "CompanionCube",
+      "X": 7266,
+      "Y": 300,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Gate",
+      "X": 7562,
+      "Y": 352,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Button",
+          "X": 7456,
+          "Y": 407,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "CompanionCube",
+      "X": 7700,
+      "Y": 300,
+      "Collidable": true
+    },
+    {
+      "Type": "CompanionCube",
+      "X": 7748,
+      "Y": 300,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 320,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 288,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 256,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 224,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 192,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 160,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 128,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 96,
+      "Collidable": true
+    },
+
+    {
+      "Type": "Gate",
+      "X": 7562,
+      "Y": 32,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Button",
+          "X": 7800,
+          "Y": 407,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 0,
+      "Collidable": true
+    },
+
+
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 0,
+      "Collidable": true,
+      "InARow": 12
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 7552,
+      "Y": 128,
+      "Collidable": true,
+      "InARow": 4
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 7616,
+      "Y": 0,
+      "Collidable": true
+    },
+    {
+      "Type": "FloorBlock",
+      "X": 7616,
+      "Y": 416,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7680,
+      "Y": 128,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 7680,
+      "Y": 96,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 7680,
+      "Y": 64,
+      "Collidable": true
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 7680,
+      "Y": 32,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 320,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 288,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 256,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 224,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 192,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 160,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 128,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 96,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 64,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 32,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 7936,
+      "Y": 0,
+      "Collidable": true
+    },
+    {
+      "Type": "Gate",
+      "X": 7946,
+      "Y": 352,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Button",
+          "X": 7616,
+          "Y": 120,
+          "Collidable": true
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+      "Type": "FloorBlock",
+      "X": 8064,
+      "Y": 416,
+      "Collidable": true
+    },
+
+    {
+      "Type": "FloorBlock",
+      "X": 8192,
+      "Y": 32,
+      "Collidable": true,
+      "InARow": 3
+    },
+    {
+      "Type": "PyramidBlock",
+      "X": 8192,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 5
+    },
+    {
+      "Type": "Gate",
+      "X": 8512,
+      "Y": 160,
+      "Collidable": true,
+      "Entities": [
+        {
+          "Type": "Button",
+          "X": 8192,
+          "Y": 152,
+          "Collidable": true
+        }
+      ]
+    },
+
+    {
+      "Type": "CompanionCube",
+      "X": 8192,
+      "Y": 120,
+      "Collidable": true
+    },
+
+    {
+      "Type": "PyramidBlock",
+      "X": 8672,
+      "Y": 160,
+      "Collidable": true,
+      "InARow": 6
+    },
+
+    {
+      "Type": "CopperPipe",
+      "X": 8736,
+      "Y": 96,
+      "Collidable": true,
+      "PipeWarp": 1,
+      "PipeX": 4648,
+      "PipeY": 352
+    }
+
+
+  ]
+}
