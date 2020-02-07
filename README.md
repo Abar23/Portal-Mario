@@ -38,7 +38,7 @@ Football, Gold Mario, King, Knight, Luigi, Mechanic, Metal Mario, Musician, Pira
 Samurai, Scientist, Skeleton, Snow Suit, Space Suit, Swim Wear, Fire Mario, Baseball, and 
 Black Tuxedo.
 
-When the game starts, it will randomly chooes one of the 24 power-ups that will fill the question
+When the game starts, it will randomly choose one of the 24 power-ups that will fill the question
 blocks. However, the player can choose the power-up by pausing the game with "P", then using the
 arrow keys to navigate to their desired power-up.
 
