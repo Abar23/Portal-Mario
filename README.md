@@ -1,7 +1,7 @@
 Portal Mario
 ============
 
-![Mario Game Demo](https://media.giphy.com/media/H4DKyg2gOYQaiuqhVq/giphy.gif)
+![Mario Game Demo](https://media.giphy.com/media/SS2gAEiLehqv6DpKVw/giphy.gif)
 
 Portal Mario was developed using the MonoGame game engine. The game was developed during
 a semester long project course at the Ohio State Univerity amongst myself and 3 other students. 
