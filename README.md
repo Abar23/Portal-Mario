@@ -52,7 +52,7 @@ Apart from the source code in the project files, there is a build of the game in
 Game Controls
 ===========
 
-## Mario Controls  
+### Mario Controls  
 
 * W, Up Arrow, or Spacebar - Jump
 * A or Left Arrow - Move left
@@ -61,14 +61,14 @@ Game Controls
 * F - Spit projectile when using a power-up
 * R - Perform melee attack when using a power-up
 
-## Portal Mechanics
+### Portal Mechanics
 
 * Cursor - Use mouse cursor to aim Portal Gun, Hover over Companion Cubes
 * E - Pick up Companion Cubes when mouse curor hovers over it. Drop when cursor is off of Companion Cube.
 * Left Click - Shoot blue portal
 * Right Click - Shoot orange portal
 
-## Gameplay Controls
+### Gameplay Controls
 
 * Q - Quit Game
 * P - Pause Game
@@ -76,13 +76,13 @@ Game Controls
 * C - Render hitboxes when not paused
 * Tilde - Reset level when not paused
 
-## Pause Screen Controls
+### Pause Screen Controls
 
 * F - Fullscreen mode
 * A - Navigate to prior costume
 * D - Navigate to next costume
 
-## Cheat Codes
+### Cheat Codes
 
 * Y - Go to Small Mario
 * U - Go to Big Mario
